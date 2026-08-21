@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京 ACG 聖地巡禮一日遊</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome 圖示庫 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- 頂部標題與今日進度 -->
+        <header class="header-card">
+            <div class="badge">東京聖地巡禮</div>
+            <h1>⚡ 寶可夢 & 任天堂 一日暴走行程</h1>
+            <p class="subtitle"><i class="fa-solid fa-location-dot"></i> 錦糸町 ↔ 日本橋 ↔ 池袋 ↔ 澀谷</p>
+
+            <div class="today-banner" id="current-status-banner">
+                <i class="fa-regular fa-clock"></i> 點擊下方卡片開啟 Google Maps 路線與導航
+            </div>
+        </header>
+
+        <!-- 行程時間軸區塊 -->
+        <main class="timeline" id="timeline-container">
+            <!-- JavaScript 會自動將行程資料渲染於此 -->
+        </main>
+
+        <footer>
+            <p> Have a great trip in Tokyo! </p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
